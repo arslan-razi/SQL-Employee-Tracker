@@ -1,0 +1,40 @@
+{
+  "name": "SQL-Employee-Tracker",
+  "version": "1.0.0",
+  "description": "A command-line application that manages a company's employee database, using Node.js, Inquirer, and MySQL.",
+  "logoColor": "blue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arslan-razi/SQL-Employee-Tracker.git"
+  },
+  "keywords": [
+    "MySQL",
+    "Node.js",
+    "Inquirer",
+    "database",
+    "SQL",
+    "relational",
+    "employee",
+    "personnel",
+    "HR"
+  ],
+  "author": "Arslan Razi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arslan-razi/SQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/arslan-razi/SQL-Employee-Tracker#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {}
+}
